@@ -1,0 +1,14 @@
+/* bugSolution.css */
+.container {
+  width: 50%;
+  height: 50%;
+  background-color: lightcoral;
+  display: flex;
+  height: 100%; /* Added to ensure container takes full available height */
+}
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  /* No changes to .box element, using the flex properties of the parent */
+} /*The solution uses the flex-grow property on the box element to occupy available space*/
